@@ -1,0 +1,49 @@
+.container--dice {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem;
+  width: 100%;
+}
+
+.digits {
+  font-family: 'Digital-7 Mono', sans-serif;
+  font-size: 1.7rem;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.container--scores, 
+.container--rolls {
+  display: flex;
+  border: 2px solid darkslategrey;
+  border-radius: 10px;
+  padding: 0.5rem;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.container--rolls {
+  border-color: yellow;
+  width: auto;
+  padding: 1.2rem 1rem 1rem;
+}
+
+.container--scores {
+  padding: 1rem;
+}
+
+.container--scores > * {
+  flex: 1;
+}
+
+.container--scores p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.rolls > *,
+.container--scores > * {
+  margin: 0;
+}

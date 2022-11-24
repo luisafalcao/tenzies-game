@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;600&display=swap');
+@import url('https://fonts.cdnfonts.com/css/digital-7-mono');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body { 
+  background-color: darkslategrey;
+  padding: 1rem;
+  color: #ffffff;
+  font-family: 'Alexandria', sans-serif;
+}
+
+main {
+  background-color: tomato;
+  max-width: 500px;
+  max-height: 100vh;
+  aspect-ratio: 1/1;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 2rem;
+  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+p {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h3 {
+  color: yellow;
+  text-transform: uppercase;
+  margin-top: 2rem;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  background-color: yellow;
+  color: black;
+  width: auto;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 10px;
+  cursor: pointer;
+  margin: 1rem auto 2rem;
+}
+
+button:hover {
+  transform: translate(2px, 2px);
+  background-color: dimgrey;
+  color: white
+}

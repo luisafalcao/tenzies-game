@@ -1,0 +1,78 @@
+.die {
+    display: grid;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+    
+    cursor: pointer;
+    background-color: #FFFFFF;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    grid-template-areas: 
+        "a b c"
+        "d e f"
+        "g h i"   
+}
+
+.die.held {
+    background-color: yellow
+}
+
+.die > span {
+    align-self: center;
+    justify-self: center;
+    border-radius: 100%;
+    height: 0.6rem;
+    width: 0.6rem;
+    background-color: transparent;
+}
+
+.one > .circle-five {
+    background-color: black;
+}
+
+.two > .circle-three,
+.two > .circle-seven {
+    background-color: black;
+}
+
+.three > .circle-three,
+.three > .circle-five,
+.three > .circle-seven {
+    background-color: black;
+}
+
+.four > .circle-one,
+.four > .circle-three,
+.four > .circle-seven,
+.four > .circle-nine {
+    background-color: black;
+}
+
+.five > .circle-one,
+.five > .circle-three,
+.five > .circle-five,
+.five > .circle-seven,
+.five > .circle-nine {
+    background-color: black;
+}
+
+.six > .circle-one,
+.six > .circle-three,
+.six > .circle-four,
+.six > .circle-six,
+.six > .circle-seven,
+.six > .circle-nine {
+    background-color: black;
+}
+
+.circle-one { grid-area: a; }
+.circle-two { grid-area: b; }
+.circle-three { grid-area: c; }
+.circle-four { grid-area: d; }
+.circle-five { grid-area: e; }
+.circle-six { grid-area: f; }
+.circle-seven { grid-area: g; }
+.circle-eight { grid-area: h; }
+.circle-nine { grid-area: i; }
