@@ -1,8 +1,9 @@
 .container--dice {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 1rem;
+  justify-content: space-evenly;
+  
+  gap: 0.5rem;
   padding: 1rem;
   width: 100%;
 }
