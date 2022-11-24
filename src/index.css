@@ -52,6 +52,7 @@ button {
   background-color: yellow;
   color: black;
   width: auto;
+  font-size: 1rem;
   font-weight: 600;
   text-transform: uppercase;
   padding: 10px;
