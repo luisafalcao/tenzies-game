@@ -111,8 +111,7 @@ export default function App() {
             
             <div className="container--rolls">
                 <div className="rolls">
-                    <p>Number of Rolls:</p>
-                    <p className="digits">{currentRollCount}</p>
+                    <p>Number of Rolls: {currentRollCount}</p>
                 </div>
             </div>
             
