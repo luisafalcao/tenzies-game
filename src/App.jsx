@@ -116,7 +116,7 @@ export default function App() {
             </div>
             
             
-            <h3>Score Board:</h3>
+            <h3>Scoreboard:</h3>
             <div className="container--scores">
                 <div className="last-game-score">
                     <p>Last Game:</p>
